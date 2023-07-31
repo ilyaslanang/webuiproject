@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC- 03 book</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d90e4b5-2b7d-49ed-8afd-53cad6f35753</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3fedc7b4-4d6e-4c30-a909-455d53c176bd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'a'</defaultValue>
+      <description></description>
+      <id>3fedc7b4-4d6e-4c30-a909-455d53c176bd</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

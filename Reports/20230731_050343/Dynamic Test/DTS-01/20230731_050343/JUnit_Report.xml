@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DTS-01" time="59.942" tests="2" failures="0" errors="0">
+   <testsuite name="DTS-01" tests="2" failures="0" errors="0" time="59.942" skipped="0" timestamp="2023-07-31 05:03:55" hostname="acer - anehsialan" id="Test Suites/Dynamic Test/DTS-01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\acer\\Katalon Studio\\ImplementKeyword\\Reports\\20230731_050343\\Dynamic Test\\DTS-01\\20230731_050343"/>
+         <property name="logFiles" value="C:\\Users\\acer\\Katalon Studio\\ImplementKeyword\\Reports\\20230731_050343\\Dynamic Test\\DTS-01\\20230731_050343\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="acer - anehsialan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.170"/>
+         <property name="sessionId" value="8e270759b24fa64e903b1c7a62ad74b1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Main TC/MTC- 01 login-book-logout" time="40.976" classname="Test Cases/Main TC/MTC- 01 login-book-logout" status="PASSED">
+         <system-out><![CDATA[2023-07-31 05:03:55 - [TEST_CASE][PASSED] - Test Cases/Main TC/MTC- 01 login-book-logout: Test Cases/Main TC/MTC- 01 login-book-logout
+
+2023-07-31 05:03:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reuse TC/RTC-01 login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reuse TC/RTC-01 login' successfully
+
+2023-07-31 05:03:56 - [TEST_CASE][PASSED] - Test Cases/Reuse TC/RTC-01 login: Test Cases/Reuse TC/RTC-01 login
+
+2023-07-31 05:03:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 05:03:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 05:03:57 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-07-31 05:03:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 05:03:59 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 05:04:05 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 05:04:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 05:04:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 05:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/BtnMakeAppointment")): Object: 'Object Repository/Page_CURA Healthcare Service/BtnMakeAppointment' is clicked on
+
+2023-07-31 05:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/BtnMakeAppointment' is clicked on
+
+2023-07-31 05:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtUsername"), NAME): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/txtUsername'
+
+2023-07-31 05:04:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/txtUsername'
+
+2023-07-31 05:04:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/txtPassword"), PASS): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/txtPassword'
+
+2023-07-31 05:04:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/txtPassword'
+
+2023-07-31 05:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLogin' is clicked on
+
+2023-07-31 05:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLogin' is clicked on
+
+2023-07-31 05:04:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reuse TC/RTC-01 login' successfully
+
+2023-07-31 05:04:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reuse TC/RTC- 03 book"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reuse TC/RTC- 03 book' successfully
+
+2023-07-31 05:04:16 - [TEST_CASE][PASSED] - Test Cases/Reuse TC/RTC- 03 book: Test Cases/Reuse TC/RTC- 03 book
+
+2023-07-31 05:04:16 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/cbCURAHealthcareCenter"), 0): All options with index in [0] are selected on object 'Object Repository/Page_CURA Healthcare Service/cbCURAHealthcareCenter'
+
+2023-07-31 05:04:17 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/Page_CURA Healthcare Service/cbCURAHealthcareCenter'
+
+2023-07-31 05:04:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/cbApply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/cbApply for hospital readmission' is clicked on
+
+2023-07-31 05:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/cbApply for hospital readmission' is clicked on
+
+2023-07-31 05:04:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/cbMedicaid_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/cbMedicaid_programs' is clicked on
+
+2023-07-31 05:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/cbMedicaid_programs' is clicked on
+
+2023-07-31 05:04:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisit Date"), "07/07/2023"): Text '07/07/2023' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisit Date'
+
+2023-07-31 05:04:24 - [MESSAGE][PASSED] - Text '07/07/2023' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisit Date'
+
+2023-07-31 05:04:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/text_Comment"), comment): Text 'a' is set on object 'Object Repository/Page_CURA Healthcare Service/text_Comment'
+
+2023-07-31 05:04:27 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_CURA Healthcare Service/text_Comment'
+
+2023-07-31 05:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnBook Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/btnBook Appointment' is clicked on
+
+2023-07-31 05:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnBook Appointment' is clicked on
+
+2023-07-31 05:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGo to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGo to Homepage' is clicked on
+
+2023-07-31 05:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGo to Homepage' is clicked on
+
+2023-07-31 05:04:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reuse TC/RTC- 03 book' successfully
+
+2023-07-31 05:04:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reuse TC/RTC-02 logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reuse TC/RTC-02 logout' successfully
+
+2023-07-31 05:04:31 - [TEST_CASE][PASSED] - Test Cases/Reuse TC/RTC-02 logout: Test Cases/Reuse TC/RTC-02 logout
+
+2023-07-31 05:04:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/idCURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/idCURA Healthcare_menu-toggle' is clicked on
+
+2023-07-31 05:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/idCURA Healthcare_menu-toggle' is clicked on
+
+2023-07-31 05:04:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLogout")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLogout' is clicked on
+
+2023-07-31 05:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLogout' is clicked on
+
+2023-07-31 05:04:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 05:04:36 - [MESSAGE][PASSED] - Browser is closed
+
+2023-07-31 05:04:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reuse TC/RTC-02 logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reuse TC/RTC-01 login" time="18.617" classname="Test Cases/Reuse TC/RTC-01 login" status="PASSED">
+         <system-out><![CDATA[2023-07-31 05:04:36 - [TEST_CASE][PASSED] - Test Cases/Reuse TC/RTC-01 login: Test Cases/Reuse TC/RTC-01 login
+
+2023-07-31 05:04:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 05:04:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 05:04:36 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-07-31 05:04:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 05:04:38 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 05:04:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 05:04:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 05:04:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 05:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/BtnMakeAppointment")): Object: 'Object Repository/Page_CURA Healthcare Service/BtnMakeAppointment' is clicked on
+
+2023-07-31 05:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/BtnMakeAppointment' is clicked on
+
+2023-07-31 05:04:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtUsername"), NAME): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/txtUsername'
+
+2023-07-31 05:04:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/txtUsername'
+
+2023-07-31 05:04:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/txtPassword"), PASS): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/txtPassword'
+
+2023-07-31 05:04:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/txtPassword'
+
+2023-07-31 05:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLogin' is clicked on
+
+2023-07-31 05:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLogin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 05:03:55 - [TEST_SUITE][PASSED] - DTS-01: Test Cases/Reuse TC/RTC-01 login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

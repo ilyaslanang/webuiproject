@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-demo,Chrome 115.0.0.0,,,2023-07-30 01:03:07,2023-07-30 01:04:49,1m - 42.021s,PASSED
+,,,,,,,
+Test Cases/Booking,Chrome 115.0.0.0,,,2023-07-30 01:03:46,2023-07-30 01:04:33,46.482s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-30 01:03:46,2023-07-30 01:03:56,9.688s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 115.0.0.0,,,2023-07-30 01:03:56,2023-07-30 01:03:56,0.356s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 115.0.0.0,,,2023-07-30 01:03:56,2023-07-30 01:03:56,0.347s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 115.0.0.0,,,2023-07-30 01:03:56,2023-07-30 01:03:57,0.363s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/td_3""))",Chrome 115.0.0.0,,,2023-07-30 01:03:57,2023-07-30 01:03:57,0.470s,PASSED
+"setText(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Aku sakit hati tapi pacarku cantik dan baik"")",Chrome 115.0.0.0,,,2023-07-30 01:03:57,2023-07-30 01:03:58,0.874s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 115.0.0.0,,,2023-07-30 01:03:58,2023-07-30 01:04:30,32.218s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/appointment.php#summary"")",Chrome 115.0.0.0,,,2023-07-30 01:04:30,2023-07-30 01:04:31,0.168s,PASSED
+"rightClick(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 115.0.0.0,,,2023-07-30 01:04:31,2023-07-30 01:04:31,0.622s,PASSED
+"rightClick(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/h2_Appointment Confirmation""))",Chrome 115.0.0.0,,,2023-07-30 01:04:31,2023-07-30 01:04:32,0.434s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Booking/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 115.0.0.0,,,2023-07-30 01:04:32,2023-07-30 01:04:32,0.331s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-30 01:04:32,2023-07-30 01:04:33,0.608s,PASSED
+,,,,,,,
+Test Cases/Login n Booking,Chrome 115.0.0.0,,,2023-07-30 01:04:33,2023-07-30 01:04:49,16.193s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-30 01:04:33,2023-07-30 01:04:34,1.066s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 115.0.0.0,,,2023-07-30 01:04:34,2023-07-30 01:04:38,4.034s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",Chrome 115.0.0.0,,,2023-07-30 01:04:38,2023-07-30 01:04:38,0.376s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/a_Make Appointment""), ""Make Appointment"")",Chrome 115.0.0.0,,,2023-07-30 01:04:38,2023-07-30 01:04:39,0.330s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 115.0.0.0,,,2023-07-30 01:04:39,2023-07-30 01:04:39,0.788s,PASSED
+"setText(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 115.0.0.0,,,2023-07-30 01:04:39,2023-07-30 01:04:40,0.693s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 115.0.0.0,,,2023-07-30 01:04:40,2023-07-30 01:04:40,0.391s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/input_Password_password""), Keys.chord(ENTER))",Chrome 115.0.0.0,,,2023-07-30 01:04:40,2023-07-30 01:04:42,1.111s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 115.0.0.0,,,2023-07-30 01:04:42,2023-07-30 01:04:42,0.457s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/label_None""))",Chrome 115.0.0.0,,,2023-07-30 01:04:42,2023-07-30 01:04:42,0.346s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 115.0.0.0,,,2023-07-30 01:04:42,2023-07-30 01:04:43,0.344s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 115.0.0.0,,,2023-07-30 01:04:43,2023-07-30 01:04:43,0.361s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/td_30""))",Chrome 115.0.0.0,,,2023-07-30 01:04:43,2023-07-30 01:04:44,0.525s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/td_31""))",Chrome 115.0.0.0,,,2023-07-30 01:04:44,2023-07-30 01:04:44,0.591s,PASSED
+"setText(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/textarea_Comment_comment""), ""sakit nih"")",Chrome 115.0.0.0,,,2023-07-30 01:04:44,2023-07-30 01:04:45,0.890s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 115.0.0.0,,,2023-07-30 01:04:45,2023-07-30 01:04:46,0.889s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 115.0.0.0,,,2023-07-30 01:04:46,2023-07-30 01:04:47,0.559s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/p_Tokyo CURA Healthcare Center""), ""Tokyo CURA Healthcare Center"")",Chrome 115.0.0.0,,,2023-07-30 01:04:47,2023-07-30 01:04:47,0.350s,PASSED
+"click(findTestObject(""Object Repository/Login-Booking/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 115.0.0.0,,,2023-07-30 01:04:47,2023-07-30 01:04:49,1.895s,PASSED

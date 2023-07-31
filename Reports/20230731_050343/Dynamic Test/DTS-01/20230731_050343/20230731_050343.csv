@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DTS-01,Chrome 115.0.0.0,,,2023-07-31 05:03:55,2023-07-31 05:04:55,59.942s,PASSED
+,,,,,,,
+Test Cases/Main TC/MTC- 01 login-book-logout,Chrome 115.0.0.0,,smoke,2023-07-31 05:03:55,2023-07-31 05:04:36,40.976s,PASSED
+"callTestCase(findTestCase(""Reuse TC/RTC-01 login""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 05:03:56,2023-07-31 05:04:16,19.870s,PASSED
+"callTestCase(findTestCase(""Reuse TC/RTC- 03 book""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 05:04:16,2023-07-31 05:04:31,15.416s,PASSED
+"callTestCase(findTestCase(""Reuse TC/RTC-02 logout""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-31 05:04:31,2023-07-31 05:04:36,5.243s,PASSED
+,,,,,,,
+Test Cases/Reuse TC/RTC-01 login,Chrome 115.0.0.0,,smoke,2023-07-31 05:04:36,2023-07-31 05:04:55,18.617s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 05:04:36,2023-07-31 05:04:38,1.247s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-07-31 05:04:38,2023-07-31 05:04:43,5.101s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 05:04:43,2023-07-31 05:04:43,0.138s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/BtnMakeAppointment""))",Chrome 115.0.0.0,,,2023-07-31 05:04:43,2023-07-31 05:04:45,2.211s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/txtUsername""), NAME)",Chrome 115.0.0.0,,,2023-07-31 05:04:45,2023-07-31 05:04:48,2.949s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/txtPassword""), PASS)",Chrome 115.0.0.0,,,2023-07-31 05:04:48,2023-07-31 05:04:50,2.528s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnLogin""))",Chrome 115.0.0.0,,,2023-07-31 05:04:50,2023-07-31 05:04:55,4.437s,PASSED

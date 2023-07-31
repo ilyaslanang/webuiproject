@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-login-book-logout,,,,2023-07-31 04:57:31,2023-07-31 04:57:34,3.343s,FAILED
+,,,,,,,
+Test Cases/Reuse TC/RTC-01 login,,,,2023-07-31 04:57:32,2023-07-31 04:57:32,0.047s,FAILED
+"openBrowser("""")",,,,2023-07-31 04:57:32,2023-07-31 04:57:32,0.024s,FAILED
+,,,,,,,
+Test Cases/Reuse TC/RTC- 03 book,,,,2023-07-31 04:57:33,2023-07-31 04:57:33,0.097s,FAILED
+"selectOptionByIndex(findTestObject(""Page_CURA Healthcare Service/cbCURAHealthcareCenter""), 0)",,,,2023-07-31 04:57:33,2023-07-31 04:57:33,0.081s,FAILED
+,,,,,,,
+Test Cases/Reuse TC/RTC-02 logout,,,,2023-07-31 04:57:34,2023-07-31 04:57:34,0.104s,FAILED
+"click(findTestObject(""Page_CURA Healthcare Service/idCURA Healthcare_menu-toggle""))",,,,2023-07-31 04:57:34,2023-07-31 04:57:34,0.097s,FAILED

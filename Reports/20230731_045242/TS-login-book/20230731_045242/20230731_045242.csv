@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-login-book,Chrome 115.0.0.0,,,2023-07-31 04:52:56,2023-07-31 04:53:37,40.792s,PASSED
+,,,,,,,
+Test Cases/Reuse TC/RTC-01 login,Chrome 115.0.0.0,,,2023-07-31 04:52:57,2023-07-31 04:53:20,22.968s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-31 04:52:57,2023-07-31 04:53:00,2.795s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-07-31 04:53:00,2023-07-31 04:53:06,5.607s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-31 04:53:06,2023-07-31 04:53:06,0.302s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/BtnMakeAppointment""))",Chrome 115.0.0.0,,,2023-07-31 04:53:06,2023-07-31 04:53:11,5.602s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/txtUsername""), NAME)",Chrome 115.0.0.0,,,2023-07-31 04:53:11,2023-07-31 04:53:14,2.981s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/txtPassword""), PASS)",Chrome 115.0.0.0,,,2023-07-31 04:53:14,2023-07-31 04:53:17,2.816s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnLogin""))",Chrome 115.0.0.0,,,2023-07-31 04:53:17,2023-07-31 04:53:20,2.363s,PASSED
+,,,,,,,
+Test Cases/Reuse TC/RTC- 03 book,Chrome 115.0.0.0,,,2023-07-31 04:53:20,2023-07-31 04:53:37,17.391s,PASSED
+"selectOptionByIndex(findTestObject(""Page_CURA Healthcare Service/cbCURAHealthcareCenter""), 0)",Chrome 115.0.0.0,,,2023-07-31 04:53:20,2023-07-31 04:53:21,1.056s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/cbApply for hospital readmission""))",Chrome 115.0.0.0,,,2023-07-31 04:53:21,2023-07-31 04:53:23,1.518s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/cbMedicaid_programs""))",Chrome 115.0.0.0,,,2023-07-31 04:53:23,2023-07-31 04:53:24,1.573s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/txtVisit Date""), ""07/07/2023"")",Chrome 115.0.0.0,,,2023-07-31 04:53:24,2023-07-31 04:53:27,3.186s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/text_Comment""), comment)",Chrome 115.0.0.0,,,2023-07-31 04:53:27,2023-07-31 04:53:30,3.055s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnBook Appointment""))",Chrome 115.0.0.0,,,2023-07-31 04:53:30,2023-07-31 04:53:34,3.822s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnGo to Homepage""))",Chrome 115.0.0.0,,,2023-07-31 04:53:34,2023-07-31 04:53:37,2.649s,PASSED

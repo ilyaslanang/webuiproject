@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-login-book-logout" time="74.816" tests="3" failures="0" errors="0">
+   <testsuite name="TS-login-book-logout" tests="3" failures="0" errors="0" time="74.816" skipped="0" timestamp="2023-07-31 04:58:46" hostname="acer - anehsialan" id="Test Suites/TS-login-book-logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\acer\\Katalon Studio\\ImplementKeyword\\Reports\\20230731_045828\\TS-login-book-logout\\20230731_045829"/>
+         <property name="logFiles" value="C:\\Users\\acer\\Katalon Studio\\ImplementKeyword\\Reports\\20230731_045828\\TS-login-book-logout\\20230731_045829\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="acer - anehsialan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.170"/>
+         <property name="sessionId" value="0b0d6c39c6f22cb837a2a5d5ef385834"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Reuse TC/RTC-01 login" time="32.957" classname="Test Cases/Reuse TC/RTC-01 login" status="PASSED">
+         <system-out><![CDATA[2023-07-31 04:58:47 - [TEST_CASE][PASSED] - Test Cases/Reuse TC/RTC-01 login: Test Cases/Reuse TC/RTC-01 login
+
+2023-07-31 04:58:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 04:58:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 04:58:48 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-07-31 04:58:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 04:58:50 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 04:58:56 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-31 04:58:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-31 04:58:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-31 04:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/BtnMakeAppointment")): Object: 'Object Repository/Page_CURA Healthcare Service/BtnMakeAppointment' is clicked on
+
+2023-07-31 04:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/BtnMakeAppointment' is clicked on
+
+2023-07-31 04:58:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtUsername"), NAME): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/txtUsername'
+
+2023-07-31 04:59:05 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/txtUsername'
+
+2023-07-31 04:59:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/txtPassword"), PASS): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/txtPassword'
+
+2023-07-31 04:59:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/txtPassword'
+
+2023-07-31 04:59:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLogin' is clicked on
+
+2023-07-31 04:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLogin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reuse TC/RTC- 03 book" time="32.818" classname="Test Cases/Reuse TC/RTC- 03 book" status="PASSED">
+         <system-out><![CDATA[2023-07-31 04:59:20 - [TEST_CASE][PASSED] - Test Cases/Reuse TC/RTC- 03 book: Test Cases/Reuse TC/RTC- 03 book
+
+2023-07-31 04:59:20 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/cbCURAHealthcareCenter"), 0): All options with index in [0] are selected on object 'Object Repository/Page_CURA Healthcare Service/cbCURAHealthcareCenter'
+
+2023-07-31 04:59:26 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/Page_CURA Healthcare Service/cbCURAHealthcareCenter'
+
+2023-07-31 04:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/cbApply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/cbApply for hospital readmission' is clicked on
+
+2023-07-31 04:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/cbApply for hospital readmission' is clicked on
+
+2023-07-31 04:59:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/cbMedicaid_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/cbMedicaid_programs' is clicked on
+
+2023-07-31 04:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/cbMedicaid_programs' is clicked on
+
+2023-07-31 04:59:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisit Date"), "07/07/2023"): Text '07/07/2023' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisit Date'
+
+2023-07-31 04:59:38 - [MESSAGE][PASSED] - Text '07/07/2023' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisit Date'
+
+2023-07-31 04:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/text_Comment"), comment): Text 'a' is set on object 'Object Repository/Page_CURA Healthcare Service/text_Comment'
+
+2023-07-31 04:59:44 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_CURA Healthcare Service/text_Comment'
+
+2023-07-31 04:59:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnBook Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/btnBook Appointment' is clicked on
+
+2023-07-31 04:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnBook Appointment' is clicked on
+
+2023-07-31 04:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGo to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGo to Homepage' is clicked on
+
+2023-07-31 04:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGo to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reuse TC/RTC-02 logout" time="8.673" classname="Test Cases/Reuse TC/RTC-02 logout" status="PASSED">
+         <system-out><![CDATA[2023-07-31 04:59:52 - [TEST_CASE][PASSED] - Test Cases/Reuse TC/RTC-02 logout: Test Cases/Reuse TC/RTC-02 logout
+
+2023-07-31 04:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/idCURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/idCURA Healthcare_menu-toggle' is clicked on
+
+2023-07-31 04:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/idCURA Healthcare_menu-toggle' is clicked on
+
+2023-07-31 04:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnLogout")): Object: 'Object Repository/Page_CURA Healthcare Service/btnLogout' is clicked on
+
+2023-07-31 05:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnLogout' is clicked on
+
+2023-07-31 05:00:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 05:00:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 04:58:46 - [TEST_SUITE][PASSED] - TS-login-book-logout: Test Cases/Reuse TC/RTC-02 logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/btnGo to Homepage",
+      "brokenLocator": "//section[@id\u003d\u0027summary\u0027]/div/div/div[7]/p/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Comment\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230731_045102/TS-login-logout/20230731_045102/Object Repository/Page_CURA Healthcare Service/btnGo to Homepage_neighbor.png"
+    }
+  ]
+}

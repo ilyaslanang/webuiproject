@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Booking/Page_CURA Healthcare Service/button_Book Appointment",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027btn-book-appointment\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230730_010253/TS-demo/20230730_010254/Object Repository/Booking/Page_CURA Healthcare Service/button_Book Appointment_attributes.png"
+    }
+  ]
+}
