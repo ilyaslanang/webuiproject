@@ -6,12 +6,12 @@
    <elementGuidId>f3198b79-beaa-40e9-8308-5ffc8c64deff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='summary']/div/div/div[7]/p/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.btn-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

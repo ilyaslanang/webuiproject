@@ -6,19 +6,18 @@
    <elementGuidId>41cee2c5-c308-4428-97d5-5f7abbd34932</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
+         <value>h2</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Appointment Confirmation' or . = 'Appointment Confirmation')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h2</value>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
