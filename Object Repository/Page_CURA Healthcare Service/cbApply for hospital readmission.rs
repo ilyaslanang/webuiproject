@@ -6,12 +6,12 @@
    <elementGuidId>6d3b6904-2c04-4923-8787-53ebb567abef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#chk_hospotal_readmission</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='chk_hospotal_readmission']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#chk_hospotal_readmission</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a4377b53-61a7-4002-9c41-726248c19a67</webElementGuid>
+      <webElementGuid>d9ca18a8-20c6-4a2f-991b-42615635a436</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>1f7289f2-82fd-402c-a4c9-01ca97218c88</webElementGuid>
+      <webElementGuid>30cfc511-da10-437b-b5b4-813224a41a31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>chk_hospotal_readmission</value>
-      <webElementGuid>368643b5-b040-4392-a66b-73216fff3789</webElementGuid>
+      <webElementGuid>ff2a883f-5df8-4cab-a417-af872feee32b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>hospital_readmission</value>
-      <webElementGuid>94bc6dbd-27a3-41b2-91e7-2f6f1ed305ba</webElementGuid>
+      <webElementGuid>aaf65a36-80c4-4d87-9aa4-ac3257bd351e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>b413cd2c-94cc-47b9-ae60-280ce1cbb239</webElementGuid>
+      <webElementGuid>3459dc8d-2991-4370-84dc-bb800bbc821e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;chk_hospotal_readmission&quot;)</value>
-      <webElementGuid>47b20674-cf23-4465-bb43-f416cee583bb</webElementGuid>
+      <webElementGuid>48b01c52-dce8-47e6-8f33-e01ef40df6b7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='chk_hospotal_readmission']</value>
-      <webElementGuid>2c25941a-1f7b-4435-b741-fe73dc738889</webElementGuid>
+      <webElementGuid>2d6bb5ca-23f7-4854-875e-cbb14b608c27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/form/div[2]/div/label/input</value>
-      <webElementGuid>3e727d02-1008-45de-aaf5-d74f4a55a044</webElementGuid>
+      <webElementGuid>f94bdadd-52b4-42d0-b4d3-69122506a49e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>9d318934-31d3-4eda-abde-e3c0c264acf7</webElementGuid>
+      <webElementGuid>f9c9b5a5-d2a9-49cb-8691-6c5057f2d96a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @id = 'chk_hospotal_readmission' and @name = 'hospital_readmission']</value>
-      <webElementGuid>c03c8d1e-ea0c-4924-aae0-183ea209cc2a</webElementGuid>
+      <webElementGuid>4513db17-f410-4f06-85af-df0159278794</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
