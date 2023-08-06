@@ -25,7 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/cura-health</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>7ea1201f-c82a-4d13-a063-c82df944971a</testDataLinkId>
          <type>DATA_COLUMN</type>
